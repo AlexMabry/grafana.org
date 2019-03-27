@@ -16,7 +16,7 @@ Tinder is the world's most popular dating app, with more than 26 million matches
 "They say Rome wasn't built in a day. Same could be said for Tinder's Grafana infrastructure," Tinder Observability Software Engineer [Wenting Gong told the audience](https://www.youtube.com/watch?v=BdgT4cTjpjQ&list=PLDGkOdUX1UjqKc3ryyoSpWZvs7yktklQr&index=3) at [Grafanacon 2019](https://grafana.com/blog/2019/03/19/grafanacon-l.a.-recap-grafana-6.0-lgtm-and-more/) in L.A.
 
 <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/watch?v=BdgT4cTjpjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/BdgT4cTjpjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <br />
 
