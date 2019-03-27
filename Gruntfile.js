@@ -230,7 +230,7 @@ module.exports = function(grunt) {
     args.push("--baseUrl=" + baseUrl);
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});
-    hugo.on("exit", function() { done(true); });
+    hugo.on("exit", function(code) { done(code === 0); });
     hugo.on("error", function() { done(false); });
   });
 
