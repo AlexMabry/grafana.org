@@ -2,7 +2,7 @@
 title = "Tinder & Grafana: A Love Story in Metrics and Monitoring"
 author = "jdam"
 date = "2019-03-26"
-keywords = ["Grafana", "Prometheus", "AWS", "Tinder]
+keywords = ["Grafana", "Prometheus", "AWS", "Tinder"]
 categories = ["Grafana", "Prometheus"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
