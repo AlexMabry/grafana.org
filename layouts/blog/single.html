@@ -7,7 +7,7 @@
 		<h1 class="page-letterhead__heading page-letterhead__heading--on-background">{{ .Title }}</h1>
 		<h2 class="page-letterhead__subheading">
 			Published: {{ .Date.Format "2 Jan 2006" }} by {{ $author.name }}
-			<a class="blog-rss-link" href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">
+			<a class="blog-rss-link" href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank">
 				RSS <i class="fa fa-rss"></i>
 			</a>
 		</h2>

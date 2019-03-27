@@ -207,11 +207,11 @@ module.exports = function(grunt) {
         buildDrafts = true;
         break;
       case 'staging':
-        baseUrl = 'http://staging-blog.grafana.com.s3-website-us-west-2.amazonaws.com';
+        baseUrl = 'https://staging.grafana.com/blog';
         buildDrafts = true;
         break;
       case 'prod':
-        baseUrl = 'http://blog.grafana.com.s3-website-us-west-2.amazonaws.com';
+        baseUrl = 'https://grafana.com/blog';
         break;
       case 'staging-docs':
         buildDrafts = true;
@@ -230,8 +230,8 @@ module.exports = function(grunt) {
     args.push("--baseUrl=" + baseUrl);
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});
-    hugo.on("exit", function() { done(true); });
-    hugo.on("error", function() { done(true); });
+    hugo.on("exit", function(code) { done(code === 0); });
+    hugo.on("error", function() { done(false); });
   });
 
   grunt.registerTask('systemjs', function() {
