@@ -17,7 +17,10 @@ presumes you have some basic knowledge about writing components in React.
 _(complete code for the example used in this post can be found [here](https://github.com/grafana/react-plugin-examples/tree/master/rss-panel))._
 
 In Grafana 6.0 we started the migration to using React in Grafana. This allows you to write plugins
-using React instead of AngularJS.  We are making it easier to write React plugins by releasing a Grafana component library - the new [@grafana/ui](https://www.npmjs.com/package/@grafana/ui) npm package.
+using React instead of AngularJS.  We are making it easier to write React plugins by releasing a
+Grafana component library - the new [@grafana/ui](https://www.npmjs.com/package/@grafana/ui) npm package.
+The new npm package is still in Alpha and we are making breaking changes to the react plugin framework. But we want
+to encourage people to test it and give us early feedback.
 
 Let's take a look at how you can build your own plugin, using React and TypeScript.
 
