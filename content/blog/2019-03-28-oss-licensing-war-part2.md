@@ -55,7 +55,7 @@ So the codebases will diverge, and the community has the potential to split. But
 
 The ability to fork is what gives open source its power. It’s an indictment against the leadership and governance of the open source project, a call to arms to the community to choose sides. Indeed, after waxing on how awesome Elasticsearch is, and how it has "played a key role in democratizing analytics of machine-generated data," AWS spoke out pretty aggressively against Elastic N.V. in the blog:
 
-"Unfortunately, since June 2018, we have witnessed significant intermingling of proprietary code into the code base. While an Apache 2.0 licensed download is still available, there is an extreme lack of clarity as to what customers who care about open source are getting and what they can depend on."
+> "Unfortunately, since June 2018, we have witnessed significant intermingling of proprietary code into the code base. While an Apache 2.0 licensed download is still available, there is an extreme lack of clarity as to what customers who care about open source are getting and what they can depend on."
 
 Elastic N.V. did play a bit fast and loose with how it reframed "open" and how it made the default distribution of Elasticsearch veer more into shareware territory than open source. But the company also went out of its way to make pure open source versions of its software available and to communicate what it was doing. Fundamentally, Elasticsearch is still very much a liberally licensed open source project, and Elastic N.V. has invested significantly to improve it over the years.
 
