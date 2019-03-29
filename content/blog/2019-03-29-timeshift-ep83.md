@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "TimeShift is back after a few weeks away with a lot of updates to share. GrafanaCon LA videos and presentations, details on Grafana v6.0.1, upcoming events we’ll be speaking at, and more!"
+excerpt = "This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor."
 +++
 
 ### Welcome to TimeShift
-This week we have a number of articles from the Grafana Labs blog we'd like to share, plus a new panel plugin and other updates. Also, take a look at our upcoming events. If you're going to be attending any of them, please come and say hello!
+This week we have articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor.
 
 See an article we missed? [Contact us](mailto:hello@grafana.com).
 
