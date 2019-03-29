@@ -12,7 +12,7 @@ excerpt = "This week we have updates and articles from the Grafana Labs team, so
 +++
 
 ### Welcome to TimeShift
-This week we have articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor.
+This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor.
 
 See an article we missed? [Contact us](mailto:hello@grafana.com).
 
