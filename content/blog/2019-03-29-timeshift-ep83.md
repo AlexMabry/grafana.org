@@ -24,18 +24,14 @@ See an article we missed? [Contact us](mailto:hello@grafana.com).
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<h3>Latest Stable Release: Grafana v6.0.2</h3>
-		<h5>Bug Fixes</h5>
+		<h3>Latest Beta Release: Grafana v6.1.0-beta1</h3>
+		<h5>Major New Features</h5>
 		<ul>
-			<li><strong>Alerting</strong>: Fixed issue with AlertList panel links resulting in panel not found errors. <a href="https://github.com/grafana/grafana/pull/15975" rel="nofollow noopener">#15975</a>, <a href="https://github.com/torkelo" rel="nofollow noopener">@torkelo</a></li>
-			<li><strong>Dashboard</strong>: Improved error handling when rendering dashboard panels. <a href="https://github.com/grafana/grafana/pull/15970" rel="nofollow noopener">#15970</a>, <a href="https://github.com/torkelo" rel="nofollow noopener">@torkelo</a></li>
-			<li><strong>LDAP</strong>: Fix allow anonymous server bind for ldap search. <a href="https://github.com/grafana/grafana/pull/15872" rel="nofollow noopener">#15872</a>, <a href="https://github.com/marefr" rel="nofollow noopener">@marefr</a></li>
-			<li><strong>Discord</strong>: Fix discord notifier so it doesn’t crash when there are no image generated. <a href="https://github.com/grafana/grafana/pull/15833" rel="nofollow noopener">#15833</a>, <a href="https://github.com/marefr" rel="nofollow noopener">@marefr</a></li>
-			<li><strong>Panel Edit</strong>: Prevent search in VizPicker from stealing focus. <a href="https://github.com/grafana/grafana/pull/15802" rel="nofollow noopener">#15802</a>, <a href="https://github.com/peterholmberg" rel="nofollow noopener">@peterholmberg</a></li>
-			<li><strong>Datasource admin</strong>: Fixed url of back button in datasource edit page, when root_url configured. <a href="https://github.com/grafana/grafana/pull/15759" rel="nofollow noopener">#15759</a>, <a href="https://github.com/dprokop" rel="nofollow noopener">@dprokop</a></li>
+			<li><strong>Prometheus</strong>: Ad hoc Filtering makes it easier to explore data in a Grafana dashboard.</li>
+			<li><strong>Permissions</strong>: A new option so that Editors can own dashboards, folders and teams they create. This makes it easier for teams to self-organize when using Grafana.</li>
 		</ul>
-		<p>Check out all the <a href="http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_83" target="_blank">new features and enhancements</a> in v6.0</p>
-		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_83" target="_blank" class="btn btn--primary">Download Grafana v6.0.2 Now</a>
+		<p>Check out all the <a href="https://community.grafana.com/t/release-notes-v6-1-x/15772" target="_blank">features and bug fixes</a> in the latest beta release.</p>
+		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_83" target="_blank" class="btn btn--primary">Download Grafana v6.1.0-beta1 Now</a>
 	</div>
 </div>
 
@@ -43,84 +39,80 @@ See an article we missed? [Contact us](mailto:hello@grafana.com).
 <hr />
 
 #### From the Blogosphere
-[**Everything You Need to Know About the OSS Licensing War, Part 1.**](https://grafana.com/blog/2019/03/20/everything-you-need-to-know-about-the-oss-licensing-war-part-1./?utm_source=blog&utm_campaign=timeshift_83): Grafana Labs Co-founder and CEO Raj Dutt describes how a new breed of commercial open source company and dominance of the cloud has set off a licensing war that calls into question the very meaning of open source, and has the potential to change how software is developed, funded, and delivered. As a primer, check out the [spirited panel discussion](https://www.youtube.com/watch?v=hvX3Q8kGz_0) on the same subject from GrafanaCon.
+[**Everything You Need to Know About the OSS Licensing War, Part 2.**](https://grafana.com/blog/2019/03/28/everything-you-need-to-know-about-the-oss-licensing-war-part-2./?utm_source=blog&utm_campaign=timeshift_83): Part 2 in our OSS licensing war series picks up where we left off: In 2015, AWS had taken the Elasticsearch software and launched their own cloud offering, and Elastic N.V. doubled down on an 'open core strategy.'
+
+[**Grafana Logging using Loki**](https://blog.giantswarm.io/grafana-logging-using-loki/): Julien dives into Loki, its architecture, configuration, and some various use-cases.
+
+[**Tinder & Grafana: A Love Story in Metrics and Monitoring**](https://grafana.com/blog/2019/03/26/tinder--grafana-a-love-story-in-metrics-and-monitoring/?utm_source=blog&utm_campaign=timeshift_83): Two years ago, when it was time for the L.A.-based company to find and implement a perfect metrics monitoring partner, the process proved to be more slow-burn love affair versus whirlwind romance.
+
+[**Scaling Graphite to Millions of Metrics**](https://klaviyo.tech/scaling-graphite-to-millions-of-metrics-543b830877f7): The folks at Klaviyo discuss the challenges they overcame to scale their Graphite stack to reliably handle over a million active metric keys at any given time across 17 million total metric keys.
+
+[**Dynamic Configuration Discovery in Grafana**](https://johnharris.io/2019/03/dynamic-configuration-discovery-in-grafana/): John provides an introduction to how dynamic configuration discovery works in Grafana for data sources and dashboards.
+
+[**Build an air quality monitor with InfluxDB, Grafana, and Docker on a Raspberry Pi**](https://www.balena.io/blog/build-an-environment-and-air-quality-monitor-with-raspberry-pi/): Learn how to build your own air quality monitor. Collect metrics for temperature, humidity, barometric pressure, and air quality, and visualize all your data in Grafana.
+
+[**Timeseries and Timeseries Again (pt. 2)**](https://leonallen22.github.io/2019/03/26/timeseries-and-timeseries-again-pt-2.html): Leon describes his initial impressions of using our Prometheus-inspired log aggregation project Loki in part 2 of his series focused on the metrics stack he uses at work. Check out [part 1](https://leonallen22.github.io/2019/02/16/timeseries-and-timeseries-again.html) to get up to speed.
+
+[**Writing React Plugins for Grafana**](https://grafana.com/blog/2019/03/26/writing-react-plugins/?utm_source=blog&utm_campaign=timeshift_83): In Grafana 6.0 we started the migration to using React in Grafana. This post will walk you through how to create plugins for Grafana using [ReactJS](https://reactjs.org/).
+
+[**How to deploy Telegraf, InfluxDB, and Grafana with Puppet Bolt**](https://puppet.com/blog/how-deploy-telegraf-influxdb-and-grafana-puppet-bolt): Check out a demo to configure and deploy monitoring stack via Puppet Modules.
+
+[**What’s New in Prometheus 2.8: WAL-Based Remote Write**](https://grafana.com/blog/2019/03/25/whats-new-in-prometheus-2.8-wal-based-remote-write/?utm_source=blog&utm_campaign=timeshift_83): Learn about Prometheus' new Write-Ahead Logging (WAL) for the remote_write API, which was included in the Prometheus 2.8 release. It’s a change intended to safeguard client metrics in the face of any network issues.
 
 <br />
 <hr />
 #### Grafana Plugin Update
-We have a new panel plugin and a few plugin updates to share this week. To update or install any plugin on your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_83" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_83" target="_blank">Hosted Grafana</a>,	 update with one-click.
+Three plugin updates to share this week. Update or install any plugin on your on-prem Grafana via the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_83" target="_blank">grafana-cli tool</a>, or update with one-click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_83" target="_blank">Hosted Grafana</a>.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/agenty-flowcharting-panel/versions/0.2.0/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/raintank-worldping-app/versions/1.2.5/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
-				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong>Flowcharting Panel</strong> - Create flowcharts, diagrams, floorplans and more with this new panel.
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>WorldPing App</strong> - WorldPing v1.2.5 has been released which adds support for Grafana v6.0 and includes a few minor bug fixes.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/agenty-flowcharting-panel?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/raintank-worldping-app?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/simpod-json-datasource/versions/0.1.3/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/grafana-polystat-panel/versions/1.0.16/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>JSON Data Source</strong> - Version 0.1.3 allows you to use variables in the Additional JSON Data field.
+				<strong>Polystat Panel</strong> - Polystat panel v1.0.16 has been released and includes a fix for variable encoding in clickthrough urls.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/simpod-json-datasource?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/grafana-polystat-panel?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/flant-statusmap-panel/versions/0.1.0/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/instana-datasource/versions/2.2.0/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Statusmap Panel</strong> - New enhancements include Grafana 6.0 support, InfluxDB and MySQL support, initial annotation support and more.
+				<strong>Instana Data Source</strong> - The latest update of the Instana data source has lots of bug fixes as well as some new features:
+				<ul>
+					<li>Application metrics have been added</li>
+					<li>The datasource connection check has been improved</li>
+					<li>Support added for <code>beacon.meta</code> grouping</li>
+				</ul>
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/flant-statusmap-panel?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/instana-datasource?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/fetzerch-sunandmoon-datasource/versions/0.1.4/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Sun and Moon Data Source</strong> - 0.1.4 of the Sun and Moon Data Source adds support for datasource provisioning, and annotations for noon and midnight.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/fetzerch-sunandmoon-datasource?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
-			</p>
-		</div>
-	</div>
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/pr0ps-trackmap-panel/versions/2.0.4/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>TrackMap Panel</strong> - This latest update fixes issues with Grafana v6.X and adds support for Snapshots.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/pr0ps-trackmap-panel?utm_source=blog&utm_campaign=timeshift_83" target="_blank"><strong>Install</strong></a>
-			</p>
-		</div>
-	</div>
+	
 </div>
  
 <br />
@@ -131,24 +123,6 @@ We have a new panel plugin and a few plugin updates to share this week. To updat
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
 
 <div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/webinar.png" />
-		</div>
-		<div class="col col--md-8 col--sm-offset-1">
-			<p>
-				<strong><a href="https://dzone.com/webinars/why-open-source-works-for-devops-monitoring" target="_blank">Webinar: Why Open Source Works for DevOps Monitoring | 03.26.19, 1PM EDT</a>:</strong>
-			</p>
-			<p>
-				Learn how to use open source tools for your performance monitoring of your stacks, systems, and sensors in a way that is faster, easier, and to scale.
-			</p>
-			<p>
-				In this webinar, Jacob Lisi from Grafana, and Chris Churilo from InfluxData will provide you with step by step instruction on how to use InfluxDB with Grafana, two popular open source projects, to capture and analyze untapped data from virtual and physical assets, giving you new visibility to customer experience and business growth.
-			</p>
-			<a href="https://dzone.com/webinars/why-open-source-works-for-devops-monitoring" target="_blank" class="btn btn--outline">Register Now</a>
-		</div>
-	</div>
-	<br />
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/devopsdays.jpg" />
@@ -197,6 +171,20 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 	<br />
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/percona_live_18.png" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p>
+				<strong><a href="https://www.percona.com/live/19/observability-monitoring-track" target="_blank">Percona Live 2019 | Austin, TX - 05.28.19-05.30.19</a>:</strong>
+			</p>
+			<p>
+				<strong>Tom Wilkie: Grafana Loki - Grafana Loki: Like Prometheus, But for logs.</strong> -  Loki is a horizontally-scalable, highly-available log aggregation system inspired by Prometheus. It is designed to be cost effective and easy to operate, as it does not index the contents of the logs, but rather labels for each log stream.
+			</p>
+			<a href="https://www.percona.com/live/19/observability-monitoring-track" target="_blank" class="btn btn--outline">Learn More</a>
+		</div>
+	</div>
+	<div class="row row--md-gutters">
+		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/monitorama_18.png" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
@@ -209,6 +197,21 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<a href="https://monitorama.com/" target="_blank" class="btn btn--outline">Learn More</a>
 		</div>
 	</div>
+	<div class="row row--md-gutters">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/influxdays.png" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p>
+				<strong><a href="https://influxdays.com/london-2019/" target="_blank">InfluxDays London 2019 | London, United Kingdom - 06.13.19-06.14.19</a>:</strong>
+			</p>
+			<p>
+				<strong>David Kaltschmidt - Mixing metrics and logs with Grafana + Influx</strong> -  Imagine if you had Prometheus for log files. In this talk we'll discuss Grafana Loki, our attempt at creating just that.
+			</p>
+			<a href="https://influxdays.com/london-2019/" target="_blank" class="btn btn--outline">Learn More</a>
+		</div>
+	</div>
+	<br />
 </div>
 
 
@@ -225,21 +228,6 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		<a href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_83" target="_blank">
 			<img src="/assets/img/blog/timeshift/careers_section.jpg" />
 		</a>
-	</div>
-</div>
-
-<hr />
-<br />
-
-<div>
-	<div class="row row--no-gutters">
-		<div class="col col--sm-12">
-			<h4>Tweet of the Week</h4>
-			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We are able to display <a href="https://twitter.com/hashtag/grafana?src=hash&amp;ref_src=twsrc%5Etfw">#grafana</a> dashboards in the office. You see some average KPI&#39;s on the image. The dashboards are switching from time to time. Everyone in the team can see what is going on. <a href="https://twitter.com/hashtag/developers?src=hash&amp;ref_src=twsrc%5Etfw">#developers</a> 🙌🎉 It is a small <a href="https://twitter.com/hashtag/angular?src=hash&amp;ref_src=twsrc%5Etfw">#angular</a> application. 😉 <a href="https://t.co/kwkrAFXocj">pic.twitter.com/kwkrAFXocj</a></p>&mdash; вנöяи (@BrocksiNet) <a href="https://twitter.com/BrocksiNet/status/1107684961287573504?ref_src=twsrc%5Etfw">March 18, 2019</a></blockquote>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Awesome! Having dashboards up for the whole team to see is beneficial for all, and helps democratize metrics.</p>
-		</div>
 	</div>
 </div>
 
