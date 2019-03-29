@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor."
+excerpt = "This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project Loki, and lots more. Plus learn how to make your own air quality monitor."
 +++
 
 ### Welcome to TimeShift
-This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project, Loki, and lots more. Plus learn how to make your own air quality monitor.
+This week we have updates and articles from the Grafana Labs team, some initial impressions on our Prometheus-inspired log aggregation project Loki, and lots more. Plus learn how to make your own air quality monitor.
 
 See an article we missed? [Contact us](mailto:hello@grafana.com).
 
