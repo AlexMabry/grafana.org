@@ -27,7 +27,7 @@ See an article we missed? [Contact us](mailto:hello@grafana.com).
 		<h3>Latest Beta Release: Grafana v6.1.0-beta1</h3>
 		<h5>Major New Features</h5>
 		<ul>
-			<li><strong>Prometheus</strong>: Ad hoc Filtering makes it easier to explore data in a Grafana dashboard.</li>
+			<li><strong>Prometheus</strong>: Ad-hoc Filtering makes it easier to explore data in a Grafana dashboard.</li>
 			<li><strong>Permissions</strong>: A new option so that Editors can own dashboards, folders and teams they create. This makes it easier for teams to self-organize when using Grafana.</li>
 		</ul>
 		<p>Check out all the <a href="https://community.grafana.com/t/release-notes-v6-1-x/15772" target="_blank">features and bug fixes</a> in the latest beta release.</p>
@@ -39,7 +39,7 @@ See an article we missed? [Contact us](mailto:hello@grafana.com).
 <hr />
 
 #### From the Blogosphere
-[**Everything You Need to Know About the OSS Licensing War, Part 2.**](https://grafana.com/blog/2019/03/28/everything-you-need-to-know-about-the-oss-licensing-war-part-2./?utm_source=blog&utm_campaign=timeshift_83): Part 2 in our OSS licensing war series picks up where we left off: In 2015, AWS had taken the Elasticsearch software and launched their own cloud offering, and Elastic N.V. doubled down on an 'open core strategy.'
+[**Everything You Need to Know About the OSS Licensing War, Part 2.**](https://grafana.com/blog/2019/03/28/everything-you-need-to-know-about-the-oss-licensing-war-part-2./?utm_source=blog&utm_campaign=timeshift_83): Part 2 of our OSS licensing war series picks up where we left off: In 2015, AWS had taken the Elasticsearch software and launched their own cloud offering, and Elastic N.V. doubled down on an 'open core strategy.'
 
 [**Grafana Logging using Loki**](https://blog.giantswarm.io/grafana-logging-using-loki/): Julien dives into Loki, its architecture, configuration, and some various use-cases.
 
