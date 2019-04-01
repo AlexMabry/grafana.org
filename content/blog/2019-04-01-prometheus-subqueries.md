@@ -15,7 +15,7 @@ In the [Prometheus 2.7 release](https://github.com/prometheus/prometheus/release
 
 Prometheus subqueries make it possible to do a certain class of queries against Prometheus in an ad hoc fashion. Previously Prometheus wouldn't allow you to take a [range vector](https://prometheus.io/docs/prometheus/latest/querying/basics/#range-vector-selectors) of the output of a function; you could only take a range vector of a timeseries selector. We mainly justified this for two reasons: (1) We argued performance of this would be poor, and (2) it conveniently stopped you from taking the [rate of a sum, something you should never do in Prometheus](https://www.robustperception.io/rate-then-sum-never-sum-then-rate).
 
-But a lot has changed in the past few years. Prmometheus 2.0 introduced a new storage engine, and many improvements have been made to query performance. So justification (1) is no longer valid -- and at the [post-PromCon dev summit](https://groups.google.com/forum/#!topic/prometheus-developers/NdvpnJnttRo) back in August, we decided the time was right to add subqueries.
+But a lot has changed in the past few years. Prometheus 2.0 introduced a new storage engine, and many improvements have been made to query performance. So justification (1) is no longer valid -- and at the [post-PromCon dev summit](https://groups.google.com/forum/#!topic/prometheus-developers/NdvpnJnttRo) back in August, we decided the time was right to add subqueries.
 
 ## Billing
 
