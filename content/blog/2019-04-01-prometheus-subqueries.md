@@ -1,5 +1,5 @@
 +++
-title = "Real World Prometheus Subqueries"
+title = "How We're Using Prometheus Subqueries at Grafana Labs."
 author = "tom"
 date = "2019-04-01"
 keywords = ["Prometheus"]
