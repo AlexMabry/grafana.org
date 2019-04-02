@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Loki: Prometheus-inspired, open source logging for cloud natives. The motivations, architecture, and the future of logging in Grafana!"
-categories = ["Video", "Grafana", "Loki", "Logging"]
+categories = ["Grafana", "Loki", "Kubernetes", "Prometheus"]
 excerpt = "Loki: Prometheus-inspired, open source logging for cloud natives. The motivations, architecture, and the future of logging in Grafana!"
 +++
 
@@ -79,13 +79,13 @@ The write path and read path (query) are pretty decoupled from each other and it
 #### Distributor
 Once promtail collects and sends the logs to Loki, the distributor is the first component to receive them. Now we could be receiving millions of writes per second and we wouldn’t want to write them to a database as they come in. That would kill any database out there. We would need batch and compress the data as it comes in.
 
-We do this via building compressed chunks of the data, by gzipping logs as they come in. The ingester component is a stateful component in charge of building and then later flushing the chunks. We have multiple ingesters, and the logs belonging to each stream should always end up in the same ingester for all the relevant entries to end up in the same chunk. We do this by building a ring of ingesters and using consistent hashing. When an entry comes in, the distributor hashes the labels of the logs and then looks up which ingester to send the entry to based on the hash value. 
+We do this via building compressed chunks of the data, by gzipping logs as they come in. The ingester component is a stateful component in charge of building and then later flushing the chunks. We have multiple ingesters, and the logs belonging to each stream should always end up in the same ingester for all the relevant entries to end up in the same chunk. We do this by building a ring of ingesters and using consistent hashing. When an entry comes in, the distributor hashes the labels of the logs and then looks up which ingester to send the entry to based on the hash value.
 ![Loki: Distributor](/assets/img/blog/image2.png)
 
 Further, for redundancy and resilience, we replicate it n (3, by default) times.
 
 #### Ingester
-Now the ingester will receive the entries and start building chunks. 
+Now the ingester will receive the entries and start building chunks.
 ![Loki: Ingester](/assets/img/blog/image8.png)
 
 This is basically gzipping the logs and appending them. Once the chunk “fills up”, we flush it to the database. We use separate databases for the chunks (ObjectStorage) and the index, as the type of data they store is different.
@@ -103,10 +103,10 @@ Note that, right now, for each query, a single querier greps through all the rel
 
 
 ### Scalability
-Now let’s see if this scales. 
+Now let’s see if this scales.
 
-1. We’re putting the chunks into an object store and that scales. 
-2. We put the index into Cassandra/Bigtable/DynamoDB which again scales. 
+1. We’re putting the chunks into an object store and that scales.
+2. We put the index into Cassandra/Bigtable/DynamoDB which again scales.
 3. The distributors and queriers are stateless components that you can horizontally scale.
 
 Coming to the ingester, it is a stateful component but we’ve built the full sharding and resharding lifecycle into them. When a rollout is done or when ingesters are scaled up or down, the ring topology changes and the ingesters redistribute their chunks to match the new topology. This is mostly code taken from Cortex which has been running in production for more than 2 years.
@@ -115,7 +115,7 @@ Coming to the ingester, it is a stateful component but we’ve built the full sh
 While all of this works conceptually, we expect to hit new issues and limitations as we grow. It should be super cheap to run, given all the data will be sitting in an Object Store like S3. But you would only be able to grep through the data. This might not be suitable for other use-cases like alerting or building dashboards, which you’re better off doing in metrics.
 
 ### Conclusion
-Loki is very much alpha software and should not be used in production environments. We wanted to announce and release Loki as soon as possible to get feedback and contributions from the community and find out what’s working and what needs improvement. We believe this will help us deliver a higher quality and more on-point production release next year. 
+Loki is very much alpha software and should not be used in production environments. We wanted to announce and release Loki as soon as possible to get feedback and contributions from the community and find out what’s working and what needs improvement. We believe this will help us deliver a higher quality and more on-point production release next year.
 
 Loki can be run on-prem or as a free demo on Grafana Cloud. We urge you to give it a try and drop us a line and let us know what you think. Visit the [Loki homepage](https://grafana.com/loki) to get started today.
 

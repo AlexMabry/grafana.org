@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Monitoring for Everyone"
-categories = ["Video", "Grafana", "Conference", "Talks", "Prometheus", "Øredev"]
+categories = ["Grafana", "Prometheus", "Talks"]
 +++
 
 # Øredev - Carl Bergquist - Monitoring for Everyone
@@ -20,9 +20,9 @@ categories = ["Video", "Grafana", "Conference", "Talks", "Prometheus", "Øredev"
 
 **Why should I care?**
 
-At a recent developer conference in Malmö, Sweden, I gave a presentation on monitoring and observability to discuss the high level concepts and common tools that are out there. 
+At a recent developer conference in Malmö, Sweden, I gave a presentation on monitoring and observability to discuss the high level concepts and common tools that are out there.
 
-Monitoring and observability can easily become quite complex, but at the heart of it, we simply want to know how our systems are performing, and when performance drops – be able to find out why. 
+Monitoring and observability can easily become quite complex, but at the heart of it, we simply want to know how our systems are performing, and when performance drops – be able to find out why.
 
 In this session I talk about the concept of monitoring and some of the ways to monitor your system, different types of data you can collect and common use-cases, how containers, microservices and continuous deployment require better and more flexible monitoring tools, and finally what to monitor and alert on.
 

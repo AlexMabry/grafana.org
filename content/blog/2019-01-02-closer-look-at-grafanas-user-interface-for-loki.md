@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Grafana provides the user interface for Loki: Prometheus-inspired, open source logging for cloud natives. This post explores the ideas that went into the design of the logging UI."
-categories = ["Grafana", "Loki", "Logging"]
+categories = ["Grafana", "Loki", "UX"]
 excerpt = "Loki and Grafana are a perfect match. The backend is kept lean and space-efficient, while the user interface allows ad-hoc field parsing and simple statistics. This post details some of the UX goals we had to deliver logs simpler and faster."
 +++
 

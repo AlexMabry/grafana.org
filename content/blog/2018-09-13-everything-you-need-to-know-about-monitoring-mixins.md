@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Monitoring mixins: A solution for packaging together templates for Grafana dashboards and Prometheus alerts related to a specific piece of software."
-categories = ["Grafana", "PromCon", "Kubernetes", "Prometheus"]
+categories = ["Grafana", "Kubernetes", "Prometheus"]
 excerpt = "Monitoring mixins: A solution for packaging together templates for Grafana dashboards and Prometheus alerts related to a specific piece of software."
 +++
 

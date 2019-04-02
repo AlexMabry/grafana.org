@@ -7,7 +7,7 @@ cover_image = "/assets/img/prometheus_WAL_header.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
 description = "In the Prometheus 2.7 release, Ganesh Vernekar added a feature called Prometheus Subqueries. In this post we'll share a couple of real-life examples of how we use them at Grafana Labs."
-categories = ["Prometheus"]
+categories = ["Prometheus", "Kubernetes"]
 excerpt = "In the Prometheus 2.7 release, Ganesh Vernekar added a feature called Prometheus Subqueries. In this post we'll share a couple of real-life examples of how we use them at Grafana Labs."
 +++
 
