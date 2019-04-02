@@ -1,6 +1,6 @@
 +++
 title = "Grafana Plugin Tutorial: Polystat Panel (Part 1)"
-author = "brian"
+author = "brian_gann"
 date = "2019-04-02"
 keywords = ["Tutorials","Grafana","Plugins","Prometheus"]
 cover_image = "/assets/img/grafana_logo_transparent.png"
