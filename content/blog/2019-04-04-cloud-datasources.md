@@ -1,5 +1,5 @@
 +++
-title = "A Look at the Latest Cloud Data Source Plugins on Grafana"
+title = "A Look at the Latest Cloud Data Source Plugins in Grafana"
 author = "michelletan"
 date = "2019-04-04"
 keywords = ["Grafana", "CloudWatch", "AzureMonitor", "StackDriver"]
@@ -7,10 +7,11 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "With the recent release of Azure Monitor and Google Stackdriver plugins, the engineers at Grafana Labs have their heads in the clouds."
+excerpt = "With the recent release of Azure Monitor and Google Stackdriver plugins, the engineers at Grafana Labs have their heads in the clouds."
 categories = ["Grafana"]
 +++
 
-## A Look at the Latest Cloud Data Source Plugins on Grafana
+
 
 The engineers at Grafana Labs have their heads in the clouds.
 
