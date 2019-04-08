@@ -17,7 +17,7 @@ The problem, Samuel said, was that "the quality of the UI was entirely dependent
 
 "The first attempt was a literal hack," said Samuel, a member of the monitoring team. "I took the master branch of Grafana, and I modified the open TSDB data source to be able to understand our internal APIs. And we built out some dashboards, primarily scripted dashboards, but they didn’t have all the complex features like templating or annotations."
 
-{{< imgbox img="/img/blog/2019-04-08-ebay-01.jpg" >}}
+<img src="/assets/img/blog/2019-04-08-ebay-01.jpg" />
 
 Grafana was then still in v3.x, and "it was a dirty-dirty hack," Samuel said. The PoC was used by some on-call teams, but languished until some people from the Database Ops team came and asked for Grafana support for eBay’s internal TSDB.
 
@@ -31,7 +31,7 @@ The big breakthrough came when some eBay SREs, led by Satish Sambasivan, decided
 
 Later, the SRE team turned to the monitoring team to support all of this for them. "They have four golden signals, which they basically use to triage all the issues that were happening on the site, and there were many dashboards that they built," Samuel said. "The monitoring team decided to take up Grafana as a first-class citizen in our offering. And this came with a whole new makeover."
 
-{{< imgbox img="/img/blog/2019-04-08-ebay-02.jpg" >}}
+<img src="/assets/img/blog/2019-04-08-ebay-02.jpg" />
 
 With seasoned UI developers working on the project, many changes were made: First off, grunt-generated files would be a thing of the past. Widgets were added to view logs and events. It would become a more robust hosted solution. A lot more features were added into Grafana, such as being able to authenticate with internal APIs, and annotations support for the data source plugin.
 
