@@ -3,6 +3,7 @@ title = "Metrictank meta tags"
 author = "dieter"
 date = "2019-04-09"
 keywords = ["Graphite", "Metrictank", "meta tags", "tags"]
+cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Metrictank meta tags"
