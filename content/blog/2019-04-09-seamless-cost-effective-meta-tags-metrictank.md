@@ -10,7 +10,7 @@ description = "Metrictank meta tags"
 categories = ["Engineering", "Graphite"]
 +++
 
-# Coming Soon: Meta Tags in Metrictank
+# Coming Soon: Seamless and Cost-Effective Meta Tags for Metrictank
 
 One of the major projects we're working on for [Metrictank](https://github.com/grafana/metrictank/) -- our large scale Graphite solution -- is the meta tags feature, which we started last year and are targeting to release in a few months.
 
