@@ -1,5 +1,5 @@
 +++
-title = "Meet the Grafana Labs Team: Hugo"
+title = "Meet the Grafana Labs Team: Fullstack Developer Hugo Häggmark"
 author = "jdam"
 date = "2019-04-12"
 keywords = ["Grafana", "GrafanaLabs"]
@@ -8,7 +8,8 @@ cover_opacity = "0.4"
 cover_blur = "2px"
 draft = true
 description = "Meet Grafana Labs team member Hugo!"
-excerpt = "TODO"
+excerpt = "As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using.
+Meet Hugo, a fullstack developer."
 categories = ["Grafana"]
 +++
 
@@ -27,7 +28,7 @@ I'm in Vallentuna, 30 min. from Stockholm, CET.
 I'm a fullstack developer on the Grafana team focusing on frontend.
 
 **What open source projects do you contribute to?**
-[Grafana](https://github.com/grafana/grafana). I'm currently working on Explore and making that an even better and more performant part of Grafana.
+[Grafana](https://github.com/grafana/grafana). I'm currently working on [Explore](https://grafana.com/docs/features/explore/) and making that an even better and more performant part of Grafana.
 
 **What are your GitHub and Twitter handles?**
 Left Twitter last year and so should everyone :) and my GitHub handle is @hugohaggmark.
@@ -36,13 +37,13 @@ Left Twitter last year and so should everyone :) and my GitHub handle is @hugoha
 I'm married since 2003 but we've been together since 1998, we've 3 kids, 19, 17 and 3, so most of my spare time is about the family and all the activities that come with it that. I enjoy to cook, play long RPG games like Fallout, snowboarding and free diving/snorkeling.
 
 **What’s your favorite new gadget or tech toy?**
-The IoT-kit from the latest GrafanaCon.
+The IoT kit from the latest GrafanaCon.
 
 **What's your ideal environment for coding?**
 Depends, when I want a 100% focus I'll listen to instrumental playlists like [this](https://open.spotify.com/playlist/0dyZStqklojJzyHGbgBcJB). Otherwise I enjoy to hear people around me.
 
 **What do you do to get “in the zone” when you code?**
-Turn off all notifications and noise canceling headphones on.
+Turn off all notifications and noise-canceling headphones on.
 
 **What Game of Thrones character are you?**
 Daenerys Targaryen.
