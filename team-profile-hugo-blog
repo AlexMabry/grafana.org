@@ -21,6 +21,14 @@ Check out the first of our Friday team profiles.
 
 **Name:** Hugo Häggmark
 
+<div class="row row--internal-gutters row--extra-bottom">
+	<div class="col col--sm-12">
+		<img src="/static/img/about/hugo_haggmark.jpg" alt="Hugo Häggmark"/>
+		<br />
+		<small>Grafana Labs Fullstack Developer Hugo Häggmark</small>
+	</div>
+</div>
+
 **Current location/time zone:** 
 I'm in Vallentuna, 30 min. from Stockholm, CET.
 
