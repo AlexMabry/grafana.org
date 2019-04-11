@@ -19,10 +19,7 @@
 		<meta name="twitter:url" content="https://twitter.com/grafana" />
 		<meta name="twitter:title" content="{{ .Title }}">
 
-		{{ if and ((.IsPage) (isset .Params "social_image")) }}
-			<meta property="og:image" content="{{ default "" (trim (index .Params "social_image") "/") | absURL }}" />
-			<meta name="twitter:image" content="{{ default "" (trim (index .Params "social_image") "/") | absURL }}" />
-		{{ else if and ((.IsPage) (isset .Params "cover_image")) }}
+		{{ if and ((.IsPage) (isset .Params "cover_image")) }}
 			<meta property="og:image" content="{{ default "" (trim (index .Params "cover_image") "/") | absURL }}" />
 			<meta name="twitter:image" content="{{ default "" (trim (index .Params "cover_image") "/") | absURL }}" />
 		{{ else}}
