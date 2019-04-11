@@ -1,34 +1,36 @@
 +++
 title = "Sneak Preview of New Visualizations Coming to Grafana"
 author = "torkel"
-date = "2019-04-10"
+date = "2019-04-11"
 keywords = ["Grafana"]
-cover_image = "/assets/img/blog/bargauge/cover.png"
-cover_opacity = "0.4"
-cover_blur = "2px"
+cover_image = "/assets/img/blog/bargauge/cover.jpg"
+cover_opacity = "0.3"
+cover_blur = "3px"
 draft = true
 description = "Preview upcoming visualizations that are being worked on right now!"
-excerpt = "TODO"
+excerpt = "The a new panel and component architecture is finally starting to bear fruit in terms of new visualizations and capabilities. Get a sneak peak at our new visualizations and learn how you can try them out right now."
 categories = ["Grafana"]
 +++
 
 We have been working on a new panel and component architecture for the last half year (or more), and it's finally starting to bear fruit in terms of new visualizations and capabilities.
 
-We don't introduce totally new ways to visualize data very often, so we're excited to share with you this new addition to the family of single value type of visualizations (Singlestat, Gauge): Bar Gauge.
+## Meet the Bar Gauge
 
-Given the way you can lay out dashboards, you can represent a lot of high resolution in a bar gauge that stretches across a whole dashboard. With a more traditional gauge, it’s not so easy to see the levels from a distance. It works when you have a very small area, but when you want something that stretches across, it doesn’t utilize that space very well. This led me to start thinking about how we can make that sort of visualization better.
+We don't introduce totally new ways to visualize data very often, so we're excited to share with you this new addition to the family of single value type of visualizations (Singlestat, Gauge): the Bar Gauge.
 
-## Bar Gauge Basic Mode
+With a traditional circular Gauge is not always easy to see the levels from a distance. It works when you have a small square area, but when you want something that can stretch or stack efficiently, it doesn’t utilize that space very well. This led me to start thinking about a straight bar gauge.
 
-This visualization started simple: It's similar to a bar chart, but is trying to be a gauge. There is a minimum and a maximum, and each bar color only depends on the thresholds defined and the colors assigned to them.
+### Bar Gauge Basic
+
+This visualization started simple: It's looks very similar to a bar chart. There is a minimum and a maximum, and each bar color depends on the thresholds defined and the colors assigned to them.
 
 ![bargauge_basic_v](/assets/img/blog/bargauge/basic_v.png)
 
-And unlike the graph panel, you can stack this in horizontal mode.
+And unlike the graph panel, you can stack these horizontally.
 
 ![bargauge_basic_h](/assets/img/blog/bargauge/basic_h.png)
 
-## Bar Gauge Retro LED
+### Bar Gauge Retro LED
 
 But I wanted a different mode that was more visually interesting. I started thinking about old stereos that had these physical spectrum displays with discrete LED cells.
 
@@ -38,8 +40,7 @@ I started trying to mimic that in the visualization, creating these cells that l
 
 ![bargauge_basic_h](/assets/img/blog/bargauge/bar_gauge_retro_led.jpg)
 
-
-## Bar Gauge Gradient
+### Bar Gauge Gradient
 
 Next, I turned the thresholds into a gradient. Instead of a single color, you can start with a pre-defined “OK” color and add different colors to different thresholds. You can go from green to yellow to orange to red, or the reverse, or any other combination. It’s super flexible, and you can have any number of thresholds. I think this turned out pretty well.
 
@@ -72,11 +73,24 @@ I shared a preview of the Bar Gauge on Twitter recently, and the response was...
 
 We're excited to be working on new core visualizations again in Grafana. It feels like it has been years since there was a substantial update on this front. (Because it has been!)
 
-* We plan to update the Singlestat panel as well, to align its options UI with that of the new Bar Gauge and Gauge panel.
-* The new Gauge, Bar Gauge, and Singlestat panel will be able to repeat vertically or horizontally for every series, table, column, or row.
-* The Table panel will be rewritten with virtualized rendering (faster without paging) and new features.
-* Some form of multi graph visualization (stacked graphs) is in the works.
-* We're planning improved support for non-timeseries data.
+- We plan to update the Singlestat panel as well, to align its options UI with that of the new Bar Gauge and Gauge panel.
+- The new Gauge, Bar Gauge, and Singlestat panel will be able to repeat vertically or horizontally for every series, table, column, or row.
+- The Table panel will be rewritten with virtualized rendering (faster without paging) and new features.
+- Some form of multi graph visualization (many graphs stacked).
+- We're working on improved support for non-timeseries data.
 
-TORKEL TO ADD SENTENCE HERE ON HOW TO TRY OUT THE NEW VISUALIZATION AND GIVE FEEDBACK.
+## Try it out and give us feedback
 
+This new Bar Gauge panel will ship in beta form in the next Grafana Release (v6.2) but you can try it right now by downloading latest [nightly build](https://grafana.com/grafana/download/nightly). Then in your [config / env settings](https://grafana.com/docs/installation/configuration/) you can enable alpha panels.
+
+```ini
+[panels]
+enable_alpha = true
+```
+
+Via ENV variable set GF_PANELS_ENABLE_ALPHA=true.
+
+Please [open bugs or feedback](https://github.com/grafana/grafana/issues/new/choose) issues on GitHub.
+
+Until next time, happy dashboarding!<br>
+Torkel Ödegaard<br>
