@@ -6,7 +6,7 @@ keywords = ["Grafana"]
 cover_image = "/assets/img/blog/bargauge/cover.jpg"
 cover_opacity = "0.3"
 cover_blur = "3px"
-description = "Preview upcoming Grafana visualizations that are being worked on right now!"
+description = "Get a sneak peak of our upcoming Grafana visualizations that are being worked on right now!"
 excerpt = "A new panel and component architecture is finally starting to bear fruit in terms of new visualizations and capabilities. Get a sneak peak of our new visualizations and learn how you can try them out right now."
 categories = ["Grafana"]
 +++

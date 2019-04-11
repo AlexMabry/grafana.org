@@ -19,12 +19,20 @@
 		<meta name="twitter:url" content="https://twitter.com/grafana" />
 		<meta name="twitter:title" content="{{ .Title }}">
 
-		{{ if and ((.IsPage) (isset .Params "cover_image")) }}
-			<meta name="twitter:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
-			<meta property="og:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
+		{{ if and ((.IsPage) (isset .Params "social_image")) }}
+			<meta property="og:image" content="{{ default "" (trim (index .Params "social_image") "/") | absURL }}" />
+			<meta name="twitter:image" content="{{ default "" (trim (index .Params "social_image") "/") | absURL }}" />
+		{{ else if and ((.IsPage) (isset .Params "cover_image")) }}
+			<meta property="og:image" content="{{ default "" (trim (index .Params "cover_image") "/") | absURL }}" />
+			<meta name="twitter:image" content="{{ default "" (trim (index .Params "cover_image") "/") | absURL }}" />
 		{{ else}}
 			<meta name="twitter:image" content="https://grafana.com/img/home_panel_collage1.png" />
 			<meta property="og:image" content="https://grafana.com/img/home_panel_collage1.png" />
+		{{ end }}
+
+		{{ if and ((.IsPage) (isset .Params "description")) }}
+			<meta property="og:description" content="{{ index .Params "description" }}" />
+			<meta name="twitter:description" content="{{ index .Params "description" }}" />
 		{{ end }}
 
 		<meta property="og:site_name" content="Grafana Labs Blog" />
