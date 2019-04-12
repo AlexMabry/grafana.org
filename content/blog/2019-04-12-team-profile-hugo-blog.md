@@ -8,8 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "2px"
 draft = true
 description = "Meet Grafana Labs team member Hugo!"
-excerpt = "As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using.
-Meet Hugo, a fullstack developer."
+excerpt = "As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using. Meet Hugo, a fullstack developer."
 categories = ["Grafana"]
 +++
 
@@ -23,13 +22,13 @@ Check out the first of our Friday team profiles.
 
 <div class="row row--internal-gutters row--extra-bottom">
 	<div class="col col--sm-12">
-		<img src="/static/img/about/hugo_haggmark.jpg" alt="Hugo Häggmark"/>
+		<img src="/img/about/hugo_haggmark.jpg" alt="Hugo Häggmark"/>
 		<br />
 		<small>Grafana Labs Fullstack Developer Hugo Häggmark</small>
 	</div>
 </div>
 
-**Current location/time zone:** 
+**Current location/time zone:**
 I'm in Vallentuna, 30 min. from Stockholm, CET.
 
 **What do you do at Grafana Labs?**
@@ -59,5 +58,5 @@ Daenerys Targaryen.
 **Spaces or tabs?**
 Spaces of course. ;)
 
- 
+
 
