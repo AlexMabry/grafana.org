@@ -21,6 +21,8 @@ So when Grafana Labs built [Loki](https://grafana.com/loki) -- a [service that o
 
 And if you want to run it with microservices at scale, adds Loki Engineer Edward Welch, "Loki lets you go from 1 node to 100 and 1 service to 10, to scale in a pretty straightforward fashion."
 
+<img src="/assets/img/blog/2019-04-15-loki-microservices.png" />
+
 Here's a breakdown of how the Grafana Labs team developed the architecture of Loki to allow users "to have your cake and eat it too," says Wilkie.
 
 ## 1. Easy to Deploy
@@ -30,6 +32,8 @@ With Loki, easy deployment became a priority feature after the team looked at th
 On the microservices side, "Kubernetes is well-known to be hard to deploy," says Wilkie. "It is made of multiple components, they all need to be configured separately, they all do different jobs, they all need to be deployed in different ways. Hadoop would be exactly the same. There's a big, whole ecosystem developed around just deploying Hadoop."
 
 The same criticisms even hold true for Wilkie's other project, [Cortex](https://github.com/cortexproject/cortex), with its multiple services and dependencies on Consul, Bigtable/DynamoDB/Cassandra, Memcached, and S3/GCS -- although this is something [Wilkie is actively working to improve](https://github.com/cortexproject/cortex/pull/1262).
+
+<img src="/assets/img/blog/2019-04-15-cortex-architecture.png" />
 
 The single-process, scale-out models such as Cassandra and Nomad have been gaining more traction recently because users can get started much more easily. "It just runs a binary on each node, and you're done," says Software Engineer Goutham Veeramachaneni.
 
