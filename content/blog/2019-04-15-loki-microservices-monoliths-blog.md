@@ -23,7 +23,7 @@ And if you want to run it with microservices at scale, adds Loki Engineer Edward
 
 Here's a breakdown of how the Grafana Labs team developed the architecture of Loki to allow users "to have your cake and eat it too," says Wilkie.
 
-##1. Easy to Deploy
+## 1. Easy to Deploy
 
 With Loki, easy deployment became a priority feature after the team looked at the other offerings.
 
@@ -37,7 +37,7 @@ So in this way, the team built Loki as a monolith: "One thing to deploy, one thi
 
 "That low barrier to entry is a huge advantage because it gets people using the project," says Welch. "When you're trying out an open source project and not sure if it's the right thing for you, you don't want to put all this time, effort, and investment into configuring and deploying the service while learning the best practices up front. You just want something that you could get started with immediately and quickly."
 
-##2. Simple Architecture
+## 2. Simple Architecture
 
 With microservice architectures such as Kubernetes, "you don't get any value running a scheduler or an API server on its own. Kubernetes only has a benefit when you run all the components in combination," says Wilkie.
 
@@ -51,7 +51,7 @@ With Loki, Welch explains, "every instance can run the same services and has the
 
 So in the end, Loki users have flexibility in both dimensions. "You can deploy more of the same component -- that's closer to a Cassandra-style architecture where every process in the system is the same -- or run it as a set of microservices." explains Wilkie. "You can split those out and have every single function done in a separate process and a separate service. You've got that flexibility which you don't get with Cassandra."
 
-##3. Easy to Scale
+## 3. Easy to Scale
 
 The final consideration is how does the service grow as the user's system grows?
 
@@ -67,7 +67,7 @@ The compromise: Loki has a single-process, no dependencies scale-out "mode" for 
 
 "I would run a single-node Loki first, look at what breaks, and then scale out what doesn't work," says Veeramachaneni. And then, "slowly add that expertise."
 
-##The Best of Both Worlds
+## The Best of Both Worlds
 
 "The nice thing about Loki is you can independently scale the right parts by splitting out the microservices," Wilkie says. "When you want to run Loki at massive scale with microservices, you can. You can just run them all as different services, and you can introduce dependencies on Big Table, DynamoDB, S3, Memcached, or Consul when you want to."
 
