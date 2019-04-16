@@ -138,7 +138,7 @@ These panels have been published to grafana.com, and can be downloaded here:
 
 1. Templated Rollup https://grafana.com/dashboards/10053
 2. Drilldown to polystat (templated) https://grafana.com/dashboards/10054
-3. Drilldown to metrics (templated)
+3. Drilldown to metrics (templated) https://grafana.com/dashboards/10055
 
 ### What's Next?
 
