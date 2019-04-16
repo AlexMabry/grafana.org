@@ -6,9 +6,9 @@ keywords = ["Tutorials","Grafana","Plugins","Prometheus"]
 cover_image = "/assets/img/timeshift_14.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
-description = "Part 2 of the grafana-polystat-panel plugin tutorial."
+description = "In this installment of the grafana-polystat-panel plugin tutorial, we look at rolling up multiple Cassandra clusters and tying together multiple dashboards."
+excerpt = "In this installment of the grafana-polystat-panel plugin tutorial, we look at rolling up multiple Cassandra clusters and tying together multiple dashboards."
 categories = ["Plugins","Prometheus"]
-excerpt = ""
 +++
 
 ## Polystat [grafana-polystat-panel plugin](https://grafana.com/plugins/grafana-polystat-panel)
