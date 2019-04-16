@@ -48,13 +48,13 @@ irate(container_cpu_usage_seconds_total{namespace="$namespace", pod_name=~"cassa
 
 A single composite is used like this:
 
-![composite example setting](/assets/img/blog/plugins/grafana-polystat-panel/polystat-/part2/polystat-part2-simple-rollup.png)
+![composite example setting](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup.png)
 
-![panel goal](/assets/img/blog/plugins/grafana-polystat-panel/polystat-/part2/part2-simple-rollup-render2.png)
+![panel goal](/assets/img/blog/plugins/grafana-polystat-panel/part2/part2-simple-rollup-render2.png)
 
 Hovering over one of the clusters will show the metrics:
 
-![panel tooltips](/assets/img/blog/plugins/grafana-polystat-panel/polystat-/part2/polystat-part2-simple-rollup-render2-tooltip.png)
+![panel tooltips](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup-render2-tooltip.png)
 
 The polygon displayed now represents the "worst" state of the cluster, considering all metrics for each node.
 
@@ -95,7 +95,7 @@ Now when you select multiple clusters at the top, you will get a rollup for each
 
 ![selected clusters](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup-render2.png)
 
-![panel tooltips](/assets/img/blog/plugins/grafana-polystat-panel/polystat-/part2/polystat-part2-simple-rollup-render2-tooltip.png)
+![panel tooltips](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup-render2-tooltip.png)
 
 ### Bringing it All Together
 
