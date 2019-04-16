@@ -136,10 +136,9 @@ dashboard/db/cassandra?var-environment=ops-us-east
 
 These panels have been published to grafana.com, and can be downloaded here:
 
-1. Basic Rollup
-2. Templated Rollup
-3. Drilldown to polystat (templated)
-4. Drilldown to metrics (templated)
+1. Templated Rollup https://grafana.com/dashboards/10053
+2. Drilldown to polystat (templated)
+3. Drilldown to metrics (templated)
 
 ### What's Next?
 
