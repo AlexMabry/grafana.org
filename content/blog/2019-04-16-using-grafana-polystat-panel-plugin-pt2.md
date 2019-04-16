@@ -50,7 +50,7 @@ A single composite is used like this:
 
 ![composite example setting](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup.png)
 
-![panel goal](/assets/img/blog/plugins/grafana-polystat-panel/part2/part2-simple-rollup-render2.png)
+![panel goal](/assets/img/blog/plugins/grafana-polystat-panel/part2/polystat-part2-simple-rollup-render2.png)
 
 Hovering over one of the clusters will show the metrics:
 
