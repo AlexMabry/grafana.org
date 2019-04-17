@@ -19,7 +19,6 @@ But the main product for the 38-year-old company is actually [Bloomberg Terminal
 
 Since 2015, Bloomberg’s central telemetry team has been growing steadily -- and the same could be said for its influence within the company. Today, “we’re storing 5 million data points a second and running over 2,500 rules on our metrics stream,” said Software Developer Sean Hanson during his [talk](https://www.youtube.com/watch?v=9wrI2iwbP94&list=PLDGkOdUX1UjqKc3ryyoSpWZvs7yktklQr&index=5) at [GrafanaCon 2019](https://www.youtube.com/watch?v=EsU8558QQIw&list=PLDGkOdUX1UjqKc3ryyoSpWZvs7yktklQr) in Los Angeles. “We also do a bit more on the log side with about 100 terabytes of raw log data a day and a lot of legacy log rules.” 
 
-EMBED:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9wrI2iwbP94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Their most impressive feat, however, was rallying 5,500 engineers around streamlining their monitoring systems. “It's a hard problem when you have a lot of independent users and a lot of teams,” Hanson admitted. “For a lot of users, monitoring is not a priority ... So we try to give them as much as we can without them actually having to do something.” 
@@ -86,7 +85,7 @@ Together, the teams are working to enhance the auto-complete function. “This w
 
 The goal is for Bloomberg’s telemetry team to “score” dashboards based on popularity with a custom weighting system. They are hoping to develop functions such as tagging dashboards “official” vs. “experimental” so users know which ones are more reliable compared to others. 
 
-Another big project: [Meta tags](https://grafana.com/blog/2019/04/09/metrictank-meta-tags/) are in the works.
+Another big project: [Meta tags](https://grafana.com/blog/2019/04/09/metrictank-meta-tags/), a seamless and cost-effective way to add metadata, is also in the works.
 
 In creating a sustainable monitoring infrastructure, “starting with some good open source technology gets you a big step up,” said Hanson. “But since you didn't build it, it might not work for you right off the bat. So we can’t be afraid to jump in and improve the product for yourself and the wider community.”
 
