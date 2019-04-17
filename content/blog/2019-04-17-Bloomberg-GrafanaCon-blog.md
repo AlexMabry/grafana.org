@@ -34,7 +34,7 @@ However, working in silos led to issues when there was either an unforeseen sing
 
 With teams working in isolation, “the outage would linger until it got bad enough that someone from the outside, either on our environment support team or a high-level manager, would be like, ‘Hey, I think you might all be working on the same problem independently,’” said Hanson. “Then the teams would piece together all of the individual data to track down a root cause.” 
 
-The telemetry team’s first step to stem this problem was to deploy agents to as many machines as possible to collect system metrics -- file system, operating, system etc. -- as well as each machine’s process tables. The telemetry team also worked with key infrastructure teams to gain insight into system frameworks within individual services, queues, or databases. 
+The telemetry team’s first step to stem this problem was to deploy agents to as many machines as possible to collect system metrics -- file system, operating system, etc. -- as well as each machine’s process tables. The telemetry team also worked with key infrastructure teams to gain insight into system frameworks within individual services, queues, or databases. 
 
 The goal was to centralize the data and provide a broader picture of the operating infrastructure at any given time. The Head of Engineering now has high-level system health dashboards in place to monitor outages. “Once we provided all of these displays, we were able to narrow down the pieces of data that could help triage outages as they happened or prevent them if we could alert on them,” said Hanson. 
 
