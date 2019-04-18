@@ -57,6 +57,6 @@ Firstly, we will continue to partner with cloud vendors. Grafana Labs is all abo
 
 In addition, while the overwhelming majority of the code we write is open source, we will continue to offer an Enterprise version that is commercially licensed and clearly not open source. But, we will not play games with licensing. Our open source software will be licensed under a standard OSI license, and our commercial software will not be open source. We will be very deliberate about what we monetize and whom we are targeting with our commercial products.
 
-Finally, we will be watching the situation very carefully and we will be very transparent with our plans if and when they change. We don’t take the community we’ve fostered for granted. Far from it, we consider it to be the foundation that everything we do depends on.
+Finally, we will be watching the situation very carefully, and we will be very transparent with our plans if and when they change. We don’t take the community we’ve fostered for granted. Far from it, we consider it to be the foundation that everything we do depends on.
 
-Maybe this is all wishful thinking, and I’m denial because I run one of these new commercial open source companies. I hope not, because otherwise I’m just poking the 800-pound gorilla in the room.
+Maybe this is all wishful thinking, and I’m in denial because I run one of these new commercial open source companies. I hope not, because otherwise I’m just poking the 800-pound gorilla in the room.
