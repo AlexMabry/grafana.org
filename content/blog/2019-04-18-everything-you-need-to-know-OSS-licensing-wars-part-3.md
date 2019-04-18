@@ -6,8 +6,8 @@ keywords = ["OpenSource", "Amazon", "Elasticsearch", "AWS"]
 cover_image = "/assets/img/blog/hyperspace_falcon.png"
 cover_opacity = "0.4"
 cover_blur = "1px"
-description = "In parts One and Two of this blog, we looked back at the ongoing open source licensing wars, focusing on the evolving situation between Elastic N.V. and AWS. In the last installment of this blog, Raj Dutt discusses how Grafana Labs is reacting to the ongoing OSS licensing wars that have recently intensified."
-excerpt = "In parts One and Two of this blog, we looked back at the ongoing open source licensing wars, focusing on the evolving situation between Elastic N.V. and AWS. In the last installment of this blog, Raj Dutt discusses how Grafana Labs is reacting to the ongoing OSS licensing wars that have recently intensified."
+description = "Parts One and Two of this blog looked back at the ongoing open source licensing wars, focusing on the evolving situation between Elastic N.V. and AWS. In the last installment, Raj Dutt discusses how Grafana Labs is reacting."
+excerpt = "Parts One and Two of this blog looked back at the ongoing open source licensing wars, focusing on the evolving situation between Elastic N.V. and AWS. In the last installment, Raj Dutt discusses how Grafana Labs is reacting."
 categories = ["OpenSource"]
 +++
 
