@@ -19,7 +19,7 @@ In Parts [One](https://grafana.com/blog/2019/03/20/everything-you-need-to-know-a
 
 As faithful readers of the previous two installments hopefully realize by now: It’s complicated. Both parties have blood on their hands.
 
-The knock against commercial open source companies is that they are trying to have their cake and eat it too. They want to stop the public cloud vendors from offering their software as a service, and making money off their work. But preventing someone from using your software for any purpose violates a core freedom of open source. 
+The knock against commercial open source companies is that they are trying to have their cake and eat it too. They want to stop the public cloud vendors from offering their software as a service and making money off their work. But preventing someone from using your software for any purpose violates a core freedom of open source. 
 
 Without those freedoms, many successful open source companies would not have been able to garner the adoption, mindshare, and support they enjoy today. With these new restrictions, they’re turning their back on open source, kicking the ladder out from under them and onto the community.
 
@@ -51,12 +51,12 @@ But running an open source project isn’t as simple as throwing some code over 
 
 ## What Does This Mean for Grafana Labs?
 
-We’ve watched these developments with great interest, and had a lot of internal discussions and debates. We are still fine-tuning our strategy, but are ready to double down on a few important details.
+We’ve watched these developments with great interest and had a lot of internal discussions and debates. We are still fine-tuning our strategy but are ready to double down on a few important details.
 
-Firstly, we will continue to partner with cloud vendors. Grafana Labs is all about meeting our customers where they are; we have an inclusive “big tent” philosophy which is about more than connecting different data sources -- it’s about connecting different communities and being a trusted advisor to our customers. That’s why we’ve entered into commercial agreements with Microsoft and Google -- to provide a first class experience for our common users who use Grafana with Azure Monitor or Stackdriver. We hope to replicate this arrangement with AWS.
+Firstly, we will continue to partner with cloud vendors. Grafana Labs is all about meeting our customers where they are; we have an inclusive “big tent” philosophy which is about more than connecting different data sources -- it’s about connecting different communities and being a trusted advisor to our customers. That’s why we’ve entered into commercial agreements with Microsoft and Google -- to provide a first-class experience for our common users who use Grafana with Azure Monitor or Stackdriver. We hope to replicate this arrangement with AWS.
 
-In addition, while the overwhelming majority of the code we write is open source, we will continue to offer an Enterprise version that is commercially licensed, and clearly not open source. But, we will not play games with licensing. Our open source software will be licensed under a standard OSI license, and our commercial software will not be open source. We will be very deliberate about what we monetize, and whom we are targeting with our commercial products.
+In addition, while the overwhelming majority of the code we write is open source, we will continue to offer an Enterprise version that is commercially licensed and clearly not open source. But, we will not play games with licensing. Our open source software will be licensed under a standard OSI license, and our commercial software will not be open source. We will be very deliberate about what we monetize and whom we are targeting with our commercial products.
 
-Finally, we will be watching the situation very carefully, and we will be very transparent with our plans if and when they change. We don’t take the community we’ve fostered for granted. Far from it, we consider it to be the foundation that everything we do depends on.
+Finally, we will be watching the situation very carefully and we will be very transparent with our plans if and when they change. We don’t take the community we’ve fostered for granted. Far from it, we consider it to be the foundation that everything we do depends on.
 
 Maybe this is all wishful thinking, and I’m denial because I run one of these new commercial open source companies. I hope not, because otherwise I’m just poking the 800-pound gorilla in the room.
