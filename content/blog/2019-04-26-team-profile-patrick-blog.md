@@ -1,16 +1,15 @@
 +++
 title = "Meet the Grafana Labs Team: Developer Patrick O'Carroll"
 author = "jdam"
-date = "2019-04-19"
+date = "2019-04-26"
 keywords = ["Grafana", "GrafanaLabs"]
 cover_image = "/assets/img/blog/bargauge/cover.png"
 cover_opacity = "0.4"
 cover_blur = "2px"
 draft = true
 description = "Meet Grafana Labs team member Patrick!"
-excerpt = "As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using.
-Meet Patrick, who works with UX/UI design and frontend development."
-categories = ["Grafana"]
+excerpt = "As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using. Meet Patrick, who works with UX/UI design and frontend development."
+categories = ["Grafana", "Team"]
 +++
 
 As Grafana Labs continues to grow, we'd like you to get to know the team members who are building the cool stuff you're using.
@@ -29,14 +28,14 @@ Check out this week's team profile.
 	</div>
 </div>
 
-**Current location/time zone:** 
+**Current location/time zone:**
 I am in Stockholm, CET.
 
 **What do you do at Grafana Labs?**
 I work with UX/UI design and frontend development.
 
 **What open source projects do you contribute to?**
-I am contributing to the [Grafana](https://github.com/grafana/grafana) project. Some of the things I am working on right now are designs for the new drilldown links and an epic for Grafana styling where we are migrating from scss to emotion, restyling components to fit in a 4px grid and cleaning out unused/unnecessary variables and classes. 
+I am contributing to the [Grafana](https://github.com/grafana/grafana) project. Some of the things I am working on right now are designs for the new drilldown links and an epic for Grafana styling where we are migrating from scss to emotion, restyling components to fit in a 4px grid and cleaning out unused/unnecessary variables and classes.
 
 **What are your GitHub and Twitter handles?**
 I don't use twitter. My GitHub handle is [ijin08](https://github.com/Ijin08).
@@ -51,7 +50,7 @@ If I really need to focus I prefer to code in silence.
 Davos Seaworth.
 
 **What's the last show you binged?**
-*The Last Kingdom.* Fun show about Danes and Saxons fighting over England. The Danes' costumes do look silly though. 
+*The Last Kingdom.* Fun show about Danes and Saxons fighting over England. The Danes' costumes do look silly though.
 
 **Spaces or tabs?**
 Spaces.
